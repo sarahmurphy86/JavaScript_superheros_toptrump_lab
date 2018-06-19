@@ -13,5 +13,17 @@ describe ('Card', function (){
     assert.strictEqual(card.name, 'Superman');
   });
 
+  it('should have an intelligence', function(){
+    assert.strictEqual(card.intelligence, 6);
+  });
+
+  it('should have a strength', function(){
+    assert.strictEqual(card.strength, 9);
+  });
+
+  it('should have a agility', function(){
+    assert.strictEqual(card.agility, 7);
+  });
+
 
 });
