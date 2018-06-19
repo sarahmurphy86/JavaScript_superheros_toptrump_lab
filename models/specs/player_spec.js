@@ -13,5 +13,10 @@ describe('Player', function (){
     assert.strictEqual(player.getHandCount(), 0);
   });
 
+  xit('should be able to add a card to the hand', function(){
+
+    // assert.
+  });
+
 
 });
